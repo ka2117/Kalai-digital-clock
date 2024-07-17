@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to right, rgba(44, 187, 44,0.8) 50%,rgba(82, 233, 238,0.9) 70%);
+}
+.container{
+    margin-left: auto;
+    margin-top: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-right: auto;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 5px 5px 10px rgb(145, 145, 248,0.2);
+    border: 5px solid black;
+    padding: 20px;
+   
+}
+
+#ampm{
+    font-size: 30px;
+}
+@media (max-width: 768){
+    .container{
+        width: 90%;
+    }
+    .container span{
+        font-size: 16px;
+    }
+}
